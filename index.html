@@ -5,11 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mohamed Ibrahim Portfolio</title>
+  <title>Mohamed Ibrahim</title>
 
   <!--- favicon --->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./MyImages/ico.ico" type="image/x-icon">
   <!--- custom css link --->
+  <link rel="stylesheet" href="./assets/css/bootstrap.css">
   <link rel="stylesheet" href="./assets/css/style.css">
 
   <!--- google font link --->
@@ -19,7 +20,20 @@
 </head>
 
 <body>
-
+  <!-- Modal -->
+  <div class="modal fade  " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content OwnStyle">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 " id="staticBackdropLabel">Mohamed Ashraf CV</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <embed src="./assets/Mohamed_Ashraf CV.pdf" type="application/pdf" width="100%" height="600px" />
+        </div>
+      </div>
+    </div>
+  </div>
   <!--- #MAIN --->
   <main>
 
@@ -37,7 +51,14 @@
           <h1 class="name" title="Mohamed Ibrahim">Mohamed Ibrahim</h1>
 
           <p class="title">Web developer</p>
+          <p class="title mt-3"><button type="button" class=" OwnTitle text-center p-1"data-bs-toggle="modal"data-bs-target="#staticBackdrop">
+            <ion-icon name="document-text-outline"></ion-icon>&nbsp;CV 
+          </button></p>
+          
         </div>
+
+
+
 
         <button class="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
@@ -62,7 +83,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:Mr.Koupe@gmail.com" class="contact-link">Mr.Koupe@gmail.com</a>
+              <a href="mailto:mohamedashrafibrahim5@gmail.com" class="contact-link">mohamedashrafibrahim5@gmail.com</a>
             </div>
 
           </li>
@@ -136,6 +157,12 @@
           <li class="social-item">
             <a href="https://www.linkedin.com/in/mohamed-ibarhim-b13951162" class="social-link">
               <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/MohamedIbrahimP" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
 
@@ -285,7 +312,7 @@
 
         <!--- testimonials --->
 
-        <!-- <section class="testimonials">
+         <!--- <section class="testimonials">
 
           <h3 class="h3 testimonials-title">Testimonials</h3>
 
@@ -298,7 +325,7 @@
                   <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel </h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
@@ -398,7 +425,7 @@
 
             <div class="modal-img-wrapper">
               <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                <img src="./assets/images/avatar-1.pn" alt="Daniel lewis" width="80" data-modal-img>
               </figure>
 
               <img src="./assets/images/icon-quote.svg" alt="quote icon">
@@ -406,7 +433,7 @@
 
             <div class="modal-content">
 
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <h4 class="h3 modal-title" data-modal-title>Daniel hh</h4>
 
               <time datetime="2021-06-14">14 June, 2021</time>
 
@@ -1089,7 +1116,7 @@
 
         <section class="mapbox" data-mapbox>
           <figure>
-            <div class="mapouter"><div class="gmap_canvas"><iframe src="https://maps.google.com/maps?q=%D8%A7%D9%84%D8%AE%D8%B7%D8%A7%D8%B7%D8%A8%D8%A9%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%A7%D8%AA%20&amp;t=k&amp;z=10&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" style="width: 790px; height: 390px;"></iframe><style>.mapouter{position:relative;height:390px;width:790px}.gmap_canvas{overflow:hidden;height:390px;width:790px}.gmap_canvas iframe{position:relative;z-index:2}.gmap_canvas a{top:0;z-index:0}</style><a href="https://www.eireportingonline.com">ei reporting</a></div></div>
+            <div class="mapouter"><div class="gmap_canvas"><iframe src="https://maps.google.com/maps?q=%D8%A7%D9%84%D8%AE%D8%B7%D8%A7%D8%B7%D8%A8%D8%A9%20%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%A7%D8%AA%20&amp;t=k&amp;z=10&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" style="width: 840px; height: 390px;"></iframe><style>.mapouter{position:relative;height:390px;width:840px}.gmap_canvas{overflow:hidden;height:390px;width:840px}.gmap_canvas iframe{position:relative;z-index:2}.gmap_canvas a{top:0;z-index:0}</style><a href="https://www.eireportingonline.com">ei reporting</a></div></div>
           </figure>
         </section>
 
@@ -1125,6 +1152,7 @@
 
 
   <!--- custom js link --->
+  <script src="./assets/js/bootstrap.bundle.js"></script>
   <script src="assets/js/script.js"></script>
 
   <!--- ionicon link --->

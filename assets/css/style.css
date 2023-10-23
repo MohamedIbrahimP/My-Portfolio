@@ -1,8 +1,22 @@
-/*-----------------------------------*\
+/*-----------------------------------*\Daniel lewis
   #style.css
 \*-----------------------------------*/
 
-
+.OwnTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: var(--orange-yellow-crayola);
+}
+.OwnStyle{
+  background: var(--eerie-black-2);
+  color: var(--orange-yellow-crayola);
+  border: 1px solid var(--jet);
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: var(--shadow-1);
+}
 /**
  * copyright 2022 @codewithsadee
  */
@@ -1842,7 +1856,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     text-align: center;
   }
 
-  .info-content .title { margin: auto; }
+  .info-content .title  { margin: auto; }
 
   .info_more-btn { display: none; }
 
